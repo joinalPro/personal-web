@@ -53,11 +53,17 @@ section {
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     color: white;
     border-radius: 5px;
+    
 }
 .latest-work{
     background-color: rgb(246, 236, 236);
     height: 650px;
     
+}
+.icofix{
+   width: 30px;
+   margin-right: 20px;
+   margin-bottom: -8px;
 }
 .column{
     float: left;
@@ -93,9 +99,6 @@ section {
     font-size: 40px;
     margin-top: 5px;
     padding-top: 60px;
-    
-}
-.work{
     
 }
 
@@ -141,4 +144,29 @@ section {
     width: 40px;
     padding: 10px;
 }
-
+.services h2{
+    text-align: center;
+}
+.ourservices{
+    height: 250px;
+    box-shadow: 10px 10px 20px lightgray;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 24px;
+}
+#color-one{
+    background-color:rgb(108, 108, 229);
+    
+}
+#color-two{
+    background-color: rgb(249, 215, 76);
+}
+#color-three{
+    background-color: rgb(249, 123, 139);
+}
+footer{
+    background-color: lightgray;
+    height: 250px;;
+}
