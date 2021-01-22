@@ -63,6 +63,7 @@ section {
     float: left;
     width: 30%;
     padding: 5px;
+    text-align: center;
 }
 .row {
     height: 80%;
@@ -85,6 +86,7 @@ section {
     border-radius: 15px;
     padding: 20px;
     margin: 24px;
+
 }
 .latest-work h2 {
     text-align: center;
@@ -94,10 +96,49 @@ section {
     
 }
 .work{
+    
+}
+
+.first-one{
+    background-image: url(shapes/Group_33094_1.png);
+    background-size: 800px 200px;
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    margin-top: 70px;
+    padding-left: 5%;
+    background-position: center;
+    background-attachment:inherit
+}
+.first-one h2{                                
+    margin: 5%;
+    padding-left: 25%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
 
 }
-.work-inquiry{
-    background-image: url(shapes/Group_33094_1.png) ;
+
+.email{
     text-align: center;
-   
 }
+.email h3{
+    padding-top: 50px;
+    font-size: 25px;
+    color: #696871;
+}
+.email h2{
+    font-size: 40px;
+    color: #363958;
+    font-weight: 700;
+}
+.social-channel{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.social-channel img {
+    width: 40px;
+    padding: 10px;
+}
+
